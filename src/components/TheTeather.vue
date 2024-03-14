@@ -11,6 +11,7 @@ import "../aframe/teleport-camera-rig.js";
 import "../aframe/simple-grab.js";
 import "../aframe/proximity-trigger.js";
 import "../aframe/physx-force-pushable.js";
+import Questions from "./Questions.vue";
 
 import { dates } from "../store/game.js";
 </script>
@@ -45,85 +46,12 @@ import { dates } from "../store/game.js";
 		class="desktopanswers"
 		visible="true"
 		scale="2 2 2"
-		position="-0.5 -98.5 -0.1"
+		position="-1.5 -98 -0.7"
 		rotation="0 45 0 "
 	>
-		<a-text
-			width="1"
-			height="0.2"
-			depth="0.005"
-			clickable
-			id="questionzone"
-			position="-0.25 0.35 -0.5"
-			rotation="0 0 0"
-			value="Quand a eu lieu cet evenement ?"
-			visible="true"
-		>
-		</a-text>
-
-		<a-box
-			width="0.2"
-			height="0.2"
-			depth="0.005"
-			opacity="0.8"
-			clickable
-			id="answerzone"
-			position="-0.35 0.2 -0.5"
-			scale="0.5 0.3 0.7"
-			rotation="0 0 0"
-			visible="true"
-			material="color: orange"
-		>
-			<a-text :value="`${dates[0]}`" scale="0.3 0.3 0.3" position="-0.075 0 0.02">
-			</a-text>
-		</a-box>
-		<a-box
-			width="0.2"
-			height="0.2"
-			depth="0.005"
-			opacity="0.8"
-			clickable
-			id="answerzone"
-			position="-0.125 0.2 -0.5"
-			scale="0.5 0.3 0.7"
-			rotation="0 0 0"
-			visible="true"
-			material="color: orange"
-			><a-text :value="`${dates[1]}`" scale="0.3 0.3 0.3" position="-0.075 0 0.02">
-			</a-text>
-		</a-box>
-		<a-box
-			width="0.2"
-			height="0.2"
-			depth="0.005"
-			opacity="0.8"
-			clickable
-			id="answerzone"
-			position="0.125 0.2 -0.5"
-			scale="0.5 0.3 0.7"
-			rotation="0 0 0"
-			visible="true"
-			material="color: orange"
-		>
-			<a-text :value="`${dates[2]}`" scale="0.3 0.3 0.3" position="-0.1 0 0.02">
-			</a-text>
-		</a-box>
-		<a-box
-			width="0.2"
-			height="0.2"
-			depth="0.005"
-			opacity="0.8"
-			clickable
-			id="answerzone"
-			position="0.35 0.2 -0.5"
-			scale="0.5 0.3 0.7"
-			rotation="0 0 0"
-			visible="true"
-			material="color: orange"
-			:teleport-camera-rig="`x: 0; y: -100; z: 0; handleRotation: true; rot: 0;`"
-			@click="changeBackground('black')"
-			><a-text :value="`${dates[3]}`" scale="0.3 0.3 0.3" position="-0.1 0 0.02">
-			</a-text>
-		</a-box>
+		<Questions
+			:reponses="dates[1]"
+			:nextScene="{x: 0, y: -100, z: 0}"
+		></Questions>
 	</a-entity>
 </template>
