@@ -95,6 +95,12 @@ function changeBackground(color) {
 	>
 	</a-entity>
 
+	<a-image 
+		src="assets/pics/miguel.jpg"
+		position="0 -198.4 -2.95"
+		scale="1 2 1">
+	</a-image>
+
 	<a-box
 		width="0.8"
 		height="0.2"

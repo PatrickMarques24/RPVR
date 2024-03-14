@@ -55,7 +55,7 @@ function changeBackground(color) {
 	<a-entity
 		id=".desktopanswers"
 		visible="true"
-		scale="2 1.7 2"
+		scale="2 1.5 2"
 		position="-1.4 -398.2 -0.7"
 		rotation="0 45 0 "
 	>

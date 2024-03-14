@@ -32,7 +32,6 @@ const allAssetsLoaded = ref(false);
       wasmUrl: lib/physx.release.wasm;
     "
 	fog="type: linear; color: #d5c7e8; near: 7;far: 30; "
-	stats
 	>
 		<a-assets @loaded="allAssetsLoaded = true">
 			<!-- Assets -->
