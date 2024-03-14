@@ -36,6 +36,20 @@ function changeBackground(color) {
 		scale="2 2 1"
 	>
 	</a-entity>
+	<a-entity
+		gltf-model="#flowers"
+		rotation="0 0 0"
+		position="-3 -200.1 -3"
+		scale="2 2 2"
+	>
+	</a-entity>
+	<a-entity
+		gltf-model="#flowers"
+		rotation="0 90 0"
+		position="-2.1 -200.1 -4"
+		scale="2 2 2"
+	>
+	</a-entity>
 	<a-image 
 		src="assets/pics/miguel.jpg"
 		position="0 -198.4 -2.95"
