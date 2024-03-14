@@ -25,46 +25,12 @@ function changeBackground(color) {
 </script>
 
 <template>
+	
 	<a-entity
 		gltf-model="#berlin"
 		rotation="0 0 -1"
-		position="-50 9.8 -6"
-		scale="0.6 0.6 0.6"
-	>
-	</a-entity>
-	<a-entity
-		gltf-model="#berlin"
-		rotation="0 0 -1"
-		position="-33 9.8 -6"
-		scale="0.6 0.6 0.6"
-	>
-	</a-entity>
-	<a-entity
-		gltf-model="#berlin"
-		rotation="0 0 -1"
-		position="38 9.8 -6"
-		scale="0.6 0.6 0.6"
-	>
-	</a-entity>
-	<a-entity
-		gltf-model="#berlin"
-		rotation="0 0 -1"
-		position="3 9.8 -6"
-		scale="0.6 0.6 0.6"
-	>
-	</a-entity>
-	<a-entity
-		gltf-model="#berlin"
-		rotation="0 0 -1"
-		position="-15 9.8 -6"
-		scale="0.6 0.6 0.6"
-	>
-	</a-entity>
-	<a-entity
-		gltf-model="#berlin"
-		rotation="0 0 -1"
-		position="20 9.8 -6"
-		scale="0.6 0.6 0.6"
+		position="0 16 -6"
+		scale="2 1 1"
 	>
 	</a-entity>
 
@@ -108,7 +74,7 @@ function changeBackground(color) {
 		gltf-model="#road"
 		geometry="primitive: plane; height: 50; width: 50"
 		rotation="0 0 0"
-		position="0 0.1 0"
+		position="0 0.1 -1"
 		scale="8 8 8"
 	>
 	</a-entity>
