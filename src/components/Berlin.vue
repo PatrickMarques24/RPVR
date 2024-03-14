@@ -25,7 +25,6 @@ function changeBackground(color) {
 </script>
 
 <template>
-	
 	<a-entity
 		gltf-model="#berlin"
 		rotation="0 0 -1"
@@ -84,12 +83,13 @@ function changeBackground(color) {
 		visible="true"
 		position="-0.2 1.8 -0.7"
 		rotation="0 45 0 "
-		material="color :darkblue; opacity: 0.8;"
+		material="color : #5555FF; opacity: 0.8;"
 		geometry="primitive: plane; height: 0.4; width: 1"
+		side="double"
 	>
 		<Questions
 			:reponses="dates[0]"
-			:nextScene="{x: 0, y: -100, z: 0}"
+			:nextScene="{ x: 0, y: -100, z: 0 }"
 			question="Quand a eu lieu la chute du mur de Berlin ?"
 		></Questions>
 	</a-entity>

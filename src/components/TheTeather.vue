@@ -54,7 +54,7 @@ import { dates } from "../store/game.js";
 		<Questions
 			:reponses="dates[1]"
 			:nextScene="undefined"
-			question="Quand a eu lieu la presentation du 1er Iphone ?"
+			question="Quand a eu lieu la presentation du 1er iPhone ?"
 		></Questions>
 	</a-entity>
 </template>
