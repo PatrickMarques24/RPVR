@@ -68,13 +68,13 @@ function changeBackground(color) {
 	>
 	</a-entity>
 
-	<a-entity
+	<!--a-entity
 		gltf-model="#house"
 		rotation="0 0 0"
 		position="25 -220 -208"
 		scale="10 10 10"
 	>
-	</a-entity>
+	</a-entity-->
 
 	<a-box
 		rotation="0 0 0"
@@ -95,7 +95,7 @@ function changeBackground(color) {
 		scale="10 10 10"
 	>
 	</a-entity>
-	<a-entity
+	<!--a-entity
 		material="color: black"
 		geometry="primitive: plane; height: 50; width: 50"
 		rotation="0 0 0"
@@ -103,7 +103,7 @@ function changeBackground(color) {
 		scale="1.7 0.5 1"
 		position="0 0 -20"
 	>
-	</a-entity>
+	</a-entity-->
 	<a-entity
 		gltf-model="#road"
 		geometry="primitive: plane; height: 50; width: 50"

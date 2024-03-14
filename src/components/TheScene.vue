@@ -39,7 +39,7 @@ const allAssetsLoaded = ref(false);
 			<a-asset-item id="theater" src="assets/theater.glb"></a-asset-item>
 			<a-asset-item id="mirror" src="assets/mirror_b.glb"></a-asset-item>
 			<a-asset-item id="empty_room" src="assets/room.glb"></a-asset-item>
-			<a-asset-item id="house" src="assets/house.glb"></a-asset-item>
+			<!--a-asset-item id="house" src="assets/house.glb"></a-asset-item-->
 			<a-asset-item id="road" src="assets/road.glb"></a-asset-item>
 
 			<!-- Audio -->
