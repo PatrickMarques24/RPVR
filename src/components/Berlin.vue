@@ -26,9 +26,52 @@ function changeBackground(color) {
 <template>
 	<a-entity
 		gltf-model="#berlin"
-		rotation="0 0 0"
-		position="3 9.86 -2"
+		rotation="0 0 -1"
+		position="-50 9.8 -6"
 		scale="0.6 0.6 0.6"
+	>
+	</a-entity>
+	<a-entity
+		gltf-model="#berlin"
+		rotation="0 0 -1"
+		position="-33 9.8 -6"
+		scale="0.6 0.6 0.6"
+	>
+	</a-entity>
+	<a-entity
+		gltf-model="#berlin"
+		rotation="0 0 -1"
+		position="38 9.8 -6"
+		scale="0.6 0.6 0.6"
+	>
+	</a-entity>
+	<a-entity
+		gltf-model="#berlin"
+		rotation="0 0 -1"
+		position="3 9.8 -6"
+		scale="0.6 0.6 0.6"
+	>
+	</a-entity>
+	<a-entity
+		gltf-model="#berlin"
+		rotation="0 0 -1"
+		position="-15 9.8 -6"
+		scale="0.6 0.6 0.6"
+	>
+	</a-entity>
+	<a-entity
+		gltf-model="#berlin"
+		rotation="0 0 -1"
+		position="20 9.8 -6"
+		scale="0.6 0.6 0.6"
+	>
+	</a-entity>
+
+	<a-entity
+		gltf-model="#house"
+		rotation="0 0 0"
+		position="25 -220 -208"
+		scale="10 10 10"
 	>
 	</a-entity>
 
@@ -45,16 +88,34 @@ function changeBackground(color) {
 
 	<a-entity
 		material="color: grey"
-		geometry="primitive: plane; height: 5; width: 15"
+		geometry="primitive: plane; height: 50; width: 50"
 		rotation="-90 0 0"
 		data-role="nav-mesh"
+		scale="10 10 10"
+	>
+	</a-entity>
+	<a-entity
+		material="color: black"
+		geometry="primitive: plane; height: 50; width: 50"
+		rotation="0 0 0"
+		data-role="nav-mesh"
+		scale="1.7 0.5 1"
+		position="0 0 -20"
+	>
+	</a-entity>
+	<a-entity
+		gltf-model="#road"
+		geometry="primitive: plane; height: 50; width: 50"
+		rotation="0 0 0"
+		position="0 0.1 0"
+		scale="8 8 8"
 	>
 	</a-entity>
 
 	<a-entity
 		id=".desktopanswers"
 		visible="true"
-		position="0 1.8 -0.1"
+		position="-0.2 1.8 -0.7"
 		rotation="0 45 0 "
 		material="color :darkblue; opacity: 0.8;"
 		geometry="primitive: plane; height: 0.4; width: 1"
