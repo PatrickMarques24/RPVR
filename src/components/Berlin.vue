@@ -124,7 +124,7 @@ function changeBackground(color) {
 		<Questions
 			:reponses="dates[0]"
 			:nextScene="{x: 0, y: -100, z: 0}"
-			></Questions>
+		></Questions>
 	</a-entity>
 
 	<!-- Navigation mesh -->

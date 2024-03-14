@@ -46,6 +46,11 @@ function arrForYear(year) {
     ]);
 }
 
+export let currentNextScene = {x: 0, y: 0, z: 0};
+export function setCurrentNextScene(newScene) {
+    currentNextScene = newScene;
+}
+
 export const dates = ref([
     arrForYear(1989),
     arrForYear(2007)

@@ -25,28 +25,21 @@ function changeBackground(color) {
 	<a-entity
 		gltf-model="#empty_room"
 		rotation="0 0 0"
-		position="3 -200.1 -1"
+		position="3 -400.1 -1"
 		scale="0.05 0.05 0.05"
-	>
-	</a-entity>
-	<a-entity
-		gltf-model="#mirror"
-		rotation="0 0 0"
-		position="0 -200.1 -3"
-		scale="2 2 1"
 	>
 	</a-entity>
 
 	<a-entity
 		material="color: grey"
-		position="0 -200.2 0"
+		position="0 -400.2 0"
 		geometry="primitive: plane; height: 5; width: 15"
 		rotation="-90 0 0"
 		data-role="nav-mesh"
 	>
 	</a-entity>
 
-	<a-box
+	<!-- <a-box
 		width="0.8"
 		height="0.2"
 		depth="0.005"
@@ -61,7 +54,7 @@ function changeBackground(color) {
 		:teleport-camera-rig="`x: ${currentNextScene.x}; y: ${currentNextScene.y}; z: ${currentNextScene.z}; handleRotation: true; rot: 0;`"
 		><a-text :value="`Passer à la scene suivante`" scale="0.3 0.3 0.3" position="-0.4 0 0.02">
 		</a-text>
-	</a-box>
+	</a-box> -->
 
 	<!-- <a-entity
 		id=".desktopanswers"

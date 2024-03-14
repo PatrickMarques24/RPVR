@@ -51,7 +51,7 @@ import { dates } from "../store/game.js";
 	>
 		<Questions
 			:reponses="dates[1]"
-			:nextScene="{x: 0, y: -100, z: 0}"
+			:nextScene="undefined"
 		></Questions>
 	</a-entity>
 </template>

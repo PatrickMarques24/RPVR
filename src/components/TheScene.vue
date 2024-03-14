@@ -5,6 +5,7 @@ import TheCameraRig from "./TheCameraRig.vue";
 import Berlin from "./Berlin.vue";
 import Temp from "./Temp.vue";
 import TheTeather from "./TheTeather.vue";
+import Final from "./Final.vue";
 
 defineProps({
 	scale: Number,
@@ -64,6 +65,7 @@ const allAssetsLoaded = ref(false);
 
 		<template v-if="allAssetsLoaded">
 			<Berlin />
+			<Final />
 			<Temp />
 			<TheTeather />
 		</template>
