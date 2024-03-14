@@ -91,6 +91,23 @@ function changeBackground(color) {
 		</a-image>
 	</a-entity>
 
+	<a-text
+		rotation="0 0 0"
+		position="-0.8 -396.4 -2.8"
+		scale=".5 .5 .5"
+		color="red"
+		value="La bonne reponse etait 2007"
+	>
+	</a-text>
+	<a-text
+		rotation="0 0 0"
+		position="-0.8 -396.6 -2.8"
+		scale=".5 .5 .5"
+		color="red"
+		value="Vous avez ete vieilli de 6 ans"
+	>
+	</a-text>
+
 	<!-- <a-box
 		width="0.8"
 		height="0.2"

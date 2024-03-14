@@ -36,6 +36,22 @@ function changeBackground(color) {
 		scale="2 2 1"
 	>
 	</a-entity>
+	<a-text
+		rotation="0 0 0"
+		position="-0.8 -196.4 -2.8"
+		scale=".5 .5 .5"
+		color="red"
+		value="La bonne reponse etait 1989"
+	>
+	</a-text>
+	<a-text
+		rotation="0 0 0"
+		position="-0.8 -196.6 -2.8"
+		scale=".5 .5 .5"
+		color="red"
+		value="Vous avez ete vieilli de 22 ans"
+	>
+	</a-text>
 	<a-entity
 		gltf-model="#flowers"
 		rotation="0 0 0"
@@ -114,7 +130,7 @@ function changeBackground(color) {
 		visible="true"
 		material="color: orange"
 		:teleport-camera-rig="`x: ${currentNextScene.x}; y: ${currentNextScene.y}; z: ${currentNextScene.z}; handleRotation: true; rot: 0;`"
-		><a-text :value="`Passer à la scene suivante`" scale="0.3 0.3 0.3" position="-0.4 0 0.02">
+		><a-text :value="`Passer a la scene suivante`" scale="0.3 0.3 0.3" position="-0.4 0 0.02">
 		</a-text>
 	</a-box>
 
