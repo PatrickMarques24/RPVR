@@ -46,12 +46,15 @@ import { dates } from "../store/game.js";
 		class="desktopanswers"
 		visible="true"
 		scale="2 2 2"
+		material="color :darkblue; opacity: 0.8;"
 		position="-1.5 -98 -0.7"
+		geometry="primitive: plane; height: 0.4; width: 1"
 		rotation="0 45 0 "
 	>
 		<Questions
 			:reponses="dates[1]"
 			:nextScene="undefined"
+			question="Quand a eu lieu la presentation du premier Iphone ?"
 		></Questions>
 	</a-entity>
 </template>

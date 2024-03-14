@@ -5,6 +5,7 @@ import { setCurrentNextScene } from "../store/game.js";
 defineProps({
 	reponses: { default: [] },
     nextScene: { default: undefined},
+    question: {default: ""}
 });
 function tp(rep, next) {
     if (rep.isAnswer) {
@@ -25,9 +26,9 @@ function tp(rep, next) {
 			depth="0.005"
 			clickable
 			id="questionzone"
-			position="-0.25 0 0.01"
+			position="-0.45 0 0.01"
 			rotation="0 0 0"
-			value="Quand a eu lieu cet evenement ?"
+			:value="`${question}`"
 		>
 		</a-text>
 

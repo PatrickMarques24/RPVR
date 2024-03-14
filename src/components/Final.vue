@@ -31,12 +31,49 @@ function changeBackground(color) {
 	</a-entity>
 
 	<a-entity
+		gltf-model="#mirror"
+		rotation="0 0 0"
+		position="0 -400.1 -3"
+		scale="2 2 1"
+	>
+	</a-entity>
+	<a-image 
+		src="assets/pics/miguel2.jpg"
+		position="0 -398.4 -2.95"
+		scale="1 2 1">
+		
+	</a-image>
+	<a-entity
 		material="color: grey"
 		position="0 -400.2 0"
 		geometry="primitive: plane; height: 5; width: 15"
 		rotation="-90 0 0"
 		data-role="nav-mesh"
 	>
+	</a-entity>
+
+	<a-entity
+		id=".desktopanswers"
+		visible="true"
+		scale="2 1.7 2"
+		position="-1.4 -398.2 -0.7"
+		rotation="0 45 0 "
+	>
+		<a-text
+			width="1"
+			height="0.2"
+			depth="0.005"
+			clickable
+			id="questionzone"
+			position="-0.75 0.45 -0.5"
+			rotation="0 0 0"
+			value="Recapitulatif"
+			visible="true"
+		>
+		</a-text>
+		<a-image src="assets/pics/recap.png"></a-image>
+
+		
 	</a-entity>
 
 	<!-- <a-box

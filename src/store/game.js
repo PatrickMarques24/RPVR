@@ -52,6 +52,16 @@ export function setCurrentNextScene(newScene) {
 }
 
 export const dates = ref([
-    arrForYear(1989),
-    arrForYear(2007)
+    [
+        {year: 1946, isAnswer: false},
+        {year: 1989, isAnswer: false},
+        {year: 1967, isAnswer: true},
+        {year: 1974, isAnswer: false}
+    ],
+    [
+        {year: 2007, isAnswer: false},
+        {year: 1990, isAnswer: false},
+        {year: 1999, isAnswer: false},
+        {year: 2001, isAnswer: true}
+    ]
 ]);
