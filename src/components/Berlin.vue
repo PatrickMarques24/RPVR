@@ -27,14 +27,14 @@ function changeBackground(color) {
 	<a-entity
 		gltf-model="#berlin"
 		rotation="0 0 0"
-		position="3 9.86 -1"
+		position="3 9.86 -2"
 		scale="0.6 0.6 0.6"
 	>
 	</a-entity>
 
 	<a-box
 		rotation="0 0 0"
-		position="1 1 -1"
+		position="1 1 -2"
 		scale="0.6 0.6 0.6"
 		color="blue"
 		clickable
@@ -54,9 +54,10 @@ function changeBackground(color) {
 	<a-entity
 		id=".desktopanswers"
 		visible="true"
-		scale="2 2 2"
-		position="0 1.4 -0.1"
+		position="0 1.8 -0.1"
 		rotation="0 45 0 "
+		material="color :darkblue; opacity: 0.8;"
+		geometry="primitive: plane; height: 0.4; width: 1"
 	>
 		<a-text
 			width="1"
@@ -64,7 +65,7 @@ function changeBackground(color) {
 			depth="0.005"
 			clickable
 			id="questionzone"
-			position="-0.25 0.35 -0.5"
+			position="-0.25 0 0.01"
 			rotation="0 0 0"
 			value="Quand a eu lieu cet evenement ?"
 			visible="true"
@@ -78,7 +79,7 @@ function changeBackground(color) {
 			opacity="0.8"
 			clickable
 			id="answerzone"
-			position="-0.35 0.2 -0.5"
+			position="-0.35 -0.15 0.01"
 			scale="0.5 0.3 0.7"
 			rotation="0 0 0"
 			visible="true"
@@ -94,7 +95,7 @@ function changeBackground(color) {
 			opacity="0.8"
 			clickable
 			id="answerzone"
-			position="-0.125 0.2 -0.5"
+			position="-0.125 -0.15 0.01"
 			scale="0.5 0.3 0.7"
 			rotation="0 0 0"
 			visible="true"
@@ -109,7 +110,7 @@ function changeBackground(color) {
 			opacity="0.8"
 			clickable
 			id="answerzone"
-			position="0.125 0.2 -0.5"
+			position="0.125 -0.15 0.01"
 			scale="0.5 0.3 0.7"
 			rotation="0 0 0"
 			visible="true"
@@ -125,7 +126,7 @@ function changeBackground(color) {
 			opacity="0.8"
 			clickable
 			id="answerzone"
-			position="0.35 0.2 -0.5"
+			position="0.35 -0.15 0.01"
 			scale="0.5 0.3 0.7"
 			rotation="0 0 0"
 			visible="true"
