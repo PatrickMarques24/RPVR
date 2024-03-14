@@ -59,18 +59,6 @@ function changeBackground(color) {
 		position="-1.4 -398.2 -0.7"
 		rotation="0 45 0 "
 	>
-		<a-text
-			width="1"
-			height="0.2"
-			depth="0.005"
-			clickable
-			id="questionzone"
-			position="-0.75 0.45 -0.5"
-			rotation="0 0 0"
-			value="Recapitulatif"
-			visible="true"
-		>
-		</a-text>
 		<a-image src="assets/pics/recap.png"></a-image>
 
 		

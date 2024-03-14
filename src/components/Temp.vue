@@ -39,14 +39,14 @@ function changeBackground(color) {
 	<a-entity
 		gltf-model="#flowers"
 		rotation="0 0 0"
-		position="-3 -200.1 -3"
+		position="-8.1 -200.1 -5.5"
 		scale="2 2 2"
 	>
 	</a-entity>
 	<a-entity
 		gltf-model="#flowers"
 		rotation="0 90 0"
-		position="-2.1 -200.1 -4"
+		position="-8.1 -200.1 -9.5"
 		scale="2 2 2"
 	>
 	</a-entity>
@@ -80,8 +80,8 @@ function changeBackground(color) {
 
 	<a-entity
 		gltf-model="#sofa"
-		rotation="0 270 0"
-		position="0 -200.3 1.5"
+		rotation="0 180 0"
+		position="-8.1 -200.1 -7.5"
 		scale="0.04 0.04 0.04"
 	>
 	</a-entity>
