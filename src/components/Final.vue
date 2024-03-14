@@ -75,6 +75,33 @@ function changeBackground(color) {
 
 		
 	</a-entity>
+	<a-entity
+		gltf-model="#picture_frame"
+		rotation="0 0 0"
+		position="-9.1 -398.5 -8.5"
+		scale="0.01 0.01 0.01"
+	>
+	<a-image 
+		src="assets/pics/rp.png"
+		rotation="0 90 0"
+		position="10 120 100"
+		scale="200 220 200">
+	</a-image>
+	</a-entity>
+
+	<a-entity
+		gltf-model="#picture_frame"
+		rotation="0 180 0"
+		position="2 -398.5 -3.5"
+		scale="0.01 0.01 0.01"
+	>
+		<a-image 
+			src="assets/pics/rp.png"
+			rotation="0 90 0"
+			position="10 120 100"
+			scale="200 220 200">
+		</a-image>
+	</a-entity>
 
 	<!-- <a-box
 		width="0.8"

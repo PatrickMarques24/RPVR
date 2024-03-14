@@ -43,6 +43,8 @@ const allAssetsLoaded = ref(false);
 			<!--a-asset-item id="house" src="assets/house.glb"></a-asset-item-->
 			<a-asset-item id="road" src="assets/road.glb"></a-asset-item>
 			<a-asset-item id="flowers" src="assets/flowers.glb"></a-asset-item>
+			<a-asset-item id="picture_frame" src="assets/picture_frame.glb"></a-asset-item>
+			<a-asset-item id="sofa" src="assets/sofa.glb"></a-asset-item>
 
 			<!-- Audio -->
 			<!-- <a-asset-item

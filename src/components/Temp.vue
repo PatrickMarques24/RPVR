@@ -50,13 +50,42 @@ function changeBackground(color) {
 		scale="2 2 2"
 	>
 	</a-entity>
-	<a-image 
-		src="assets/pics/miguel.jpg"
-		position="0 -198.4 -2.95"
-		scale="1 2 1">
-		
-	</a-image>
+	<a-entity
+		gltf-model="#picture_frame"
+		rotation="0 0 0"
+		position="-9.1 -198.5 -8.5"
+		scale="0.01 0.01 0.01"
+	>
+		<a-image 
+			src="assets/pics/rp.png"
+			rotation="0 90 0"
+			position="10 120 100"
+			scale="200 220 200">
+		</a-image>
+	</a-entity>
 
+	<a-entity
+		gltf-model="#picture_frame"
+		rotation="0 180 0"
+		position="2 -198.5 -3.5"
+		scale="0.01 0.01 0.01"
+	>
+		<a-image 
+			src="assets/pics/rp.png"
+			rotation="0 90 0"
+			position="10 120 100"
+			scale="200 220 200">
+		</a-image>
+	</a-entity>
+
+	<a-entity
+		gltf-model="#sofa"
+		rotation="0 270 0"
+		position="0 -200.3 1.5"
+		scale="0.04 0.04 0.04"
+	>
+	</a-entity>
+	
 	<a-entity
 		material="color: grey"
 		position="0 -200.2 0"
