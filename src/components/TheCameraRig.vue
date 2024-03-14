@@ -12,14 +12,6 @@ const VR =
 	AFRAME.utils.device.checkHeadsetConnected() && !AFRAME.utils.device.isMobile()
 		? true
 		: false;
-
-document.addEventListener("DOMContentLoaded", function () {
-	if (!VR) {
-		document.querySelector("#vranswers").setAttribute("visible", "false");
-	} else {
-		document.querySelector(".desktopanswers").setAttribute("visible", "false");
-	}
-});
 </script>
 
 <template>
@@ -49,85 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
 			></a-entity>
 			<a-entity id="dummy-hand-right" position="0.3 -0.4 -0.5"></a-entity>
 			<a-entity id="dummy-hand-left" position="-0.3 -0.4 -0.5"></a-entity>
-
-			<a-entity id="vranswers" visible="true">
-				<a-text
-					width="1"
-					height="0.2"
-					depth="0.005"
-					clickable
-					id="questionzone"
-					position="-0.25 0.35 -0.5"
-					rotation="0 0 0"
-					value="Quand a eu lieu cet evenement ?"
-					visible="true"
-				>
-				</a-text>
-
-				<a-box
-					width="0.2"
-					height="0.2"
-					depth="0.005"
-					opacity="0.8"
-					clickable
-					id="answerzone"
-					position="-0.35 0.2 -0.5"
-					scale="0.5 0.3 0.7"
-					rotation="0 0 0"
-					visible="true"
-					material="color: orange"
-				>
-					<a-text :value="`${dates[0]}`" scale="0.3 0.3 0.3" position="-0.1 0 0.02">
-					</a-text>
-				</a-box>
-				<a-box
-					width="0.2"
-					height="0.2"
-					depth="0.005"
-					opacity="0.8"
-					clickable
-					id="answerzone"
-					position="-0.125 0.2 -0.5"
-					scale="0.5 0.3 0.7"
-					rotation="0 0 0"
-					visible="true"
-					material="color: orange"
-					><a-text :value="`${dates[1]}`" scale="0.3 0.3 0.3" position="-0.1 0 0.02">
-					</a-text>
-				</a-box>
-				<a-box
-					width="0.2"
-					height="0.2"
-					depth="0.005"
-					opacity="0.8"
-					clickable
-					id="answerzone"
-					position="0.125 0.2 -0.5"
-					scale="0.5 0.3 0.7"
-					rotation="0 0 0"
-					visible="true"
-					material="color: orange"
-				>
-					<a-text :value="`${dates[2]}`" scale="0.3 0.3 0.3" position="-0.1 0 0.02">
-					</a-text>
-				</a-box>
-				<a-box
-					width="0.2"
-					height="0.2"
-					depth="0.005"
-					opacity="0.8"
-					clickable
-					id="answerzone"
-					position="0.35 0.2 -0.5"
-					scale="0.5 0.3 0.7"
-					rotation="0 0 0"
-					visible="true"
-					material="color: orange"
-					:teleport-camera-rig="`x: 0; y: -100; z: 0; handleRotation: true; rot: 0;`"
-					><a-text :value="`${dates[3]}`" scale="0.3 0.3 0.3" position="-0.1 0 0.02">
-					</a-text>
-				</a-box>
-			</a-entity>
 		</a-entity>
 
 		<a-entity

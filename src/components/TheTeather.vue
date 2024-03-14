@@ -42,7 +42,7 @@ import { dates } from "../store/game.js";
 	></a-entity>
 
 	<a-entity
-		id=".desktopanswers"
+		class="desktopanswers"
 		visible="true"
 		scale="2 2 2"
 		position="-0.5 -98.5 -0.1"

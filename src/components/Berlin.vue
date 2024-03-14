@@ -52,8 +52,7 @@ function changeBackground(color) {
 	</a-entity>
 
 	<a-entity
-		id=".desktopanswers"
-		visible="true"
+		class="desktopanswers"
 		scale="2 2 2"
 		position="0 1.4 -0.1"
 		rotation="0 45 0 "
@@ -67,7 +66,6 @@ function changeBackground(color) {
 			position="-0.25 0.35 -0.5"
 			rotation="0 0 0"
 			value="Quand a eu lieu cet evenement ?"
-			visible="true"
 		>
 		</a-text>
 
@@ -81,7 +79,6 @@ function changeBackground(color) {
 			position="-0.35 0.2 -0.5"
 			scale="0.5 0.3 0.7"
 			rotation="0 0 0"
-			visible="true"
 			material="color: orange"
 		>
 			<a-text :value="`${dates[0]}`" scale="0.3 0.3 0.3" position="-0.075 0 0.02">
@@ -97,7 +94,6 @@ function changeBackground(color) {
 			position="-0.125 0.2 -0.5"
 			scale="0.5 0.3 0.7"
 			rotation="0 0 0"
-			visible="true"
 			material="color: orange"
 			><a-text :value="`${dates[1]}`" scale="0.3 0.3 0.3" position="-0.075 0 0.02">
 			</a-text>
@@ -112,7 +108,6 @@ function changeBackground(color) {
 			position="0.125 0.2 -0.5"
 			scale="0.5 0.3 0.7"
 			rotation="0 0 0"
-			visible="true"
 			material="color: orange"
 		>
 			<a-text :value="`${dates[2]}`" scale="0.3 0.3 0.3" position="-0.1 0 0.02">
@@ -128,7 +123,6 @@ function changeBackground(color) {
 			position="0.35 0.2 -0.5"
 			scale="0.5 0.3 0.7"
 			rotation="0 0 0"
-			visible="true"
 			material="color: orange"
 			:teleport-camera-rig="`x: 0; y: -100; z: 0; handleRotation: true; rot: 0;`"
 			@click="changeBackground('black')"
@@ -145,7 +139,7 @@ function changeBackground(color) {
 		rotation="-90 0 0"
 		data-role="nav-mesh"
 		material="color: blue"
-		visible="true"
+		
 		physx-body="type: static"
 	></a-entity> -->
 </template>
